@@ -67,3 +67,8 @@ The live URL for the current progress can be viewed here:
 🔗 [https://nsaruk.github.io/](https://nsaruk.github.io/)
 
 ---
+
+
+## Other links
+
+SVG Icons: [https://github.com/tabler/tabler-icons]
