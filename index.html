@@ -1,8 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+    }
+
+    /* Logo Section */
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .logo img {
+      width: 150px; /* Adjust size as needed */
+      height: auto;
+    }
+
+    /* Icon Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      max-width: 600px; /* Controls width of the grid */
+    }
+
+    .icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .icon:hover {
+      transform: scale(1.05);
+    }
+
+    .icon img {
+      width: 50px; /* Adjust size of the icons */
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .icon span {
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>Test</p>
+
+  <!-- Logo Section -->
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+  </div>
+
+  <!-- Icon Grid -->
+  <div class="grid">
+    <div class="icon">
+      <img src="icon1.png" alt="Icon 1">
+      <span>Icon 1</span>
+    </div>
+    <div class="icon">
+      <img src="icon2.png" alt="Icon 2">
+      <span>Icon 2</span>
+    </div>
+    <div class="icon">
+      <img src="icon3.png" alt="Icon 3">
+      <span>Icon 3</span>
+    </div>
+    <div class="icon">
+      <img src="icon4.png" alt="Icon 4">
+      <span>Icon 4</span>
+    </div>
+    <div class="icon">
+      <img src="icon5.png" alt="Icon 5">
+      <span>Icon 5</span>
+    </div>
+    <div class="icon">
+      <img src="icon6.png" alt="Icon 6">
+      <span>Icon 6</span>
+    </div>
+  </div>
+
 </body>
 </html>
