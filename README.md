@@ -16,17 +16,17 @@ Develop a fully online Master SIM where changes can be made and deployed without
 - Brainstorming ideas
 - Setup working environment
 
-### Development – January 2025 – May 2025
+### Development – January 2025 – March 2025
 - Develop content of site
 - Ensure input sheets are in usable format
 - Take feedback on as development occurs and make appropriate changes
 
-### Testing – June 2025 – July 2025
+### Testing – April 2025 – May 2025
 - Test all features
 - Fix all bugs
 - Make sure it works for everyone who needs access
 
-### Deployment – August 2025 – September 2025
+### Deployment – June 2025 – August 2025
 - Deploy alongside existing SIM
 - Ensure it does everything we need it to do
 - Changeover once fully happy
@@ -72,3 +72,4 @@ The live URL for the current progress can be viewed here:
 ## Other links
 
 SVG Icons: [https://github.com/tabler/tabler-icons]
+Digital Clock: [https://github.com/abdurrehmaan/DigitalClock]
