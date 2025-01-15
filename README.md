@@ -5,6 +5,7 @@ Develop a fully online Master SIM where changes can be made and deployed without
 
 **End date**: Planned to be fully deployed before the next workforce survey of 2025.  
 **Pages**: Today's Workforce, Investment Plans, Future Workforce, Gap Analysis, Labour Supply, WASP.
+**Calculations**: Economic and Social Value.
 
 ---
 
