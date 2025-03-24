@@ -6,7 +6,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background-color: #f9f9f9;
 }
 
@@ -14,6 +13,7 @@ body {
 .logo {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 
 .logo img {
@@ -65,9 +65,15 @@ body {
 
 /* Breadcrumb Navigation */
 .breadcrumbs {
-  margin: 10px 0 20px 0;
-  font-size: 14px;
-  color: #555;
+	display: flex;
+	gap: 10px;
+	padding: 10px;
+	background-color: #f4f4f4;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	justify-content: center;
 }
 
 .breadcrumbs a {
@@ -93,12 +99,13 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   width: 80%;
-  max-width: 900px;
+  max-width: 2000px;
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /* Key Stats */
